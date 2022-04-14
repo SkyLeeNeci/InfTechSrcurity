@@ -15,10 +15,9 @@ public class Main {
         char[] ideal = allSymbols.toLowerCase().toCharArray();
         System.out.println(ideal);
 
-        String fileName = "textIncrypt.txt"; //textIncrypt.txt
+        String fileName = "text20Incrypt.txt"; //text160Incrypt.txt
         Path path = Paths.get(fileName);
         Scanner scanner = new Scanner(path);
-
 
         scanner.useDelimiter(System.getProperty("line.separator"));
         while (scanner.hasNext()) {
